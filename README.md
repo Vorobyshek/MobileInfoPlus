@@ -2,16 +2,9 @@
   
 ## MobileInfo
 
-**获取`Android`手机硬件的全部信息**
+**Получите полную информацию об Android устройстве**
 
-**请自觉遵循《信息安全技术移动互联网应用(App)收集个人信息基本规范(草案)》**
-
-[![Download](https://api.bintray.com/packages/guxiaonian/maven/mobile/images/download.svg) ](https://bintray.com/guxiaonian/maven/mobile/_latestVersion)
-[![GitHub issues](https://img.shields.io/github/issues/guxiaonian/MobileInfo.svg)](https://github.com/guxiaonian/MobileInfo/issues)
-[![GitHub forks](https://img.shields.io/github/forks/guxiaonian/MobileInfo.svg)](https://github.com/guxiaonian/MobileInfo/network)
-[![GitHub stars](https://img.shields.io/github/stars/guxiaonian/MobileInfo.svg)](https://github.com/guxiaonian/MobileInfo/stargazers)
-[![GitHub license](https://img.shields.io/github/license/guxiaonian/MobileInfo.svg)](http://www.apache.org/licenses/LICENSE-2.0)
-[![Travis CI](https://travis-ci.org/guxiaonian/MobileInfo.svg?branch=master)](https://travis-ci.org/guxiaonian/MobileInfo)
+**Пожалуйста, соблюдайте основные правила сбора персональных данных**
 
 </div>
 <br>
@@ -19,35 +12,35 @@
 Table of Contents
 =================
 
-   * [数据信息](#数据信息)
-      * [App信息获取](#app信息获取)
-      * [App安装列表获取](#app安装列表获取)
-      * [音量数据获取](#音量数据获取)
+   * [Информация о данных](#数据信息)
+      * [Приложение](#app信息获取)
+      * [Список приложений](#app安装列表获取)
+      * [Звук](#音量数据获取)
       * [版本数据获取](#版本数据获取)
-      * [电池数据获取](#电池数据获取)
-      * [Cpu实时数据获取](#cpu实时数据获取)
-      * [蓝牙数据获取](#蓝牙数据获取)
-      * [系统Build数据获取](#系统build数据获取)
-      * [摄像头数据获取](#摄像头数据获取)
-      * [Cpu数据获取](#cpu数据获取)
-      * [调试数据获取](#调试数据获取)
-      * [host数据获取](#host数据获取)
-      * [模拟器数据获取](#模拟器数据获取)
-      * [hook数据获取](#hook数据获取)
-      * [本地数据获取](#本地数据获取)
-      * [内存数据获取](#内存数据获取)
+      * [Баттарея](#电池数据获取)
+      * [Процессор](#cpu实时数据获取)
+      * [Bluetooth](#蓝牙数据获取)
+      * [Сборка](#系统build数据获取)
+      * [Камера](#摄像头数据获取)
+      * [Процессор](#cpu数据获取)
+      * [Отладка](#调试数据获取)
+      * [ДНС](#host数据获取)
+      * [Эмулятор](#模拟器数据获取)
+      * [Хуки](#hook数据获取)
+      * [Локализация](#本地数据获取)
+      * [Память](#内存数据获取)
       * [多开数据获取](#多开数据获取)
-      * [网络数据获取](#网络数据获取)
-      * [root数据获取](#root数据获取)
-      * [屏幕数据获取](#屏幕数据获取)
-      * [SDCard数据获取](#SDCard数据获取)
-      * [设置数据获取](#设置数据获取)
-      * [信号数据获取](#信号数据获取)
-      * [手机卡数据获取](#手机卡数据获取)
-      * [堆栈数据获取](#堆栈数据获取)
-      * [唯一ID数据获取](#唯一id数据获取)
-      * [UA数据获取](#ua数据获取)
-      * [Xposed数据获取](#xposed数据获取)
+      * [Интернет](#网络数据获取)
+      * [Root](#root数据获取)
+      * [Экран](#屏幕数据获取)
+      * [SDCard](#SDCard数据获取)
+      * [Настройки](#设置数据获取)
+      * [Сигнал](#信号数据获取)
+      * [SIM карта](#手机卡数据获取)
+      * [Stack](#堆栈数据获取)
+      * [PhoneId](#唯一id数据获取)
+      * [UserAgent](#ua数据获取)
+      * [Xposed](#xposed数据获取) 
 
 # 依赖
 
